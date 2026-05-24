@@ -95,6 +95,21 @@ export default function SocialLinks() {
             className="h-12 justify-start gap-2"
           >
             <a
+              href="https://leagueofcomicgeeks.com/profile/natsudzn/read-list"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="./leagueofcomicgeeks.png" className="h-5 w-5" />
+              League of Comic Geeks
+            </a>
+          </Button>
+
+          <Button
+            asChild
+            variant="outline"
+            className="h-12 justify-start gap-2"
+          >
+            <a
               href="https://letterboxd.com/NatsuDzn/"
               target="_blank"
               rel="noopener noreferrer"
